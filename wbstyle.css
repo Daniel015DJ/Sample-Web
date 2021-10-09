@@ -1,0 +1,95 @@
+h1{
+    text-align: center;
+    color:darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 1000;
+}
+h1:hover{
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 40%;
+    color:purple;
+    cursor: grab;
+}
+a:link{
+    color: black ;
+    background-color: gray;
+    text-decoration: none;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    text-decoration: underline overline;
+}
+ul{
+    list-style-type: square;
+    color:lightcoral;
+}
+#index {
+    background-image:  url("https://i.pinimg.com/originals/a8/e8/6e/a8e86e3b519f292aed11863816205ae9.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-weight: 800, bold;
+}
+button{
+    height: 1cm;
+    width:2cm;
+    background-color: greenyellow;
+}
+button:hover{
+    cursor:cell;
+}
+.body{
+    text-align: center;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#left{
+    float:left;
+    display: block;
+    width: 4cm;
+    height:14cm;
+    border: ridge burlywood;
+    background-image:linear-gradient(to bottom right,red,blueviolet);
+    border-style: dotted;
+    border-radius: 25px;
+}
+li span {
+    position: relative;
+    left: -7cm;
+  }
+li{
+    text-align: center;
+    margin-left: 15cm;
+}
+#hide{
+   float: left;
+   position: relative;
+   margin-bottom: -5cm;
+   margin-left: 1cm;
+   border-radius: 50px;
+}
+#drag{
+    display: block;
+    width: 5cm;
+    height:2cm;
+    border: ridge burlywood;
+    background-image:linear-gradient(to bottom right,orange,gold);
+    border-style: dotted;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    user-select: none;
+}
+#drag:hover{
+    cursor: move;
+}
+#JS{
+    background-image: url("http://dabutcher.org/bgs/Moving%20Gif/green%20falls%202.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
