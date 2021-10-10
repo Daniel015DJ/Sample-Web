@@ -46,10 +46,26 @@ a:visited{
 a:hover{
     text-decoration: underline overline;
 }
-ul{
-    list-style-type: square;
-    color:lightcoral;
+.body{
+    text-align: center;
+    color: red;
+    font-size: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.5em;
 }
+#mid{
+    list-style-type: square;
+}
+nav{
+    display: inline-block;
+    
+}
+#top{
+    margin-left: 0%;
+    list-style-type: none;
+    display: inline-block;
+}
+
 #index {
     background-image:  url("https://i.pinimg.com/originals/a8/e8/6e/a8e86e3b519f292aed11863816205ae9.gif");
     background-size: 100%;
@@ -64,12 +80,6 @@ button{
 }
 button:hover{
     cursor:cell;
-}
-.body{
-    text-align: center;
-    color: darkviolet;
-    font-size: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #left{
     float:left;
@@ -119,6 +129,7 @@ button:hover{
 li span {
     position: relative;
     left: -7cm;
+    color:blue;
   }
 li{
     text-align: center;
@@ -159,4 +170,9 @@ li{
     border: 2px blue;
     border-style: hidden;
     color: darkturquoise;
+}
+#about{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: larger;
 }
