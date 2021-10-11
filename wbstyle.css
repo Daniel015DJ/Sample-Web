@@ -59,7 +59,7 @@ a:hover{
 nav{
     display: inline-block;
     overflow-y:hidden;
-    
+    position:fixed;
 }
 #top{
     margin-left: 0%;
