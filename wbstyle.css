@@ -58,6 +58,7 @@ a:hover{
 }
 nav{
     display: inline-block;
+    overflow-y:hidden;
     
 }
 #top{
